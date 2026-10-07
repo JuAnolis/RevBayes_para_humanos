@@ -4,6 +4,12 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
+.feature__item img {
+  width: 100%;
+  height: 220px;
+  object-fit: contain;
+}
+
 /* Tus estilos personalizados */
 .page__hero--overlay {
   min-height: 450px;
